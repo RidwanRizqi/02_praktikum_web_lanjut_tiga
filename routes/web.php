@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo "home";
+    return redirect('https://www.educastudio.com/');
 });
 
 Route::prefix('category')->group(function () {
