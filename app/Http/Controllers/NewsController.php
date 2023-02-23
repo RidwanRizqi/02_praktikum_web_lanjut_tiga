@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     public function index() {
-        echo "seluruh berita";
+        echo "seluruh berita.";
     }
 
     public function show($title) {
